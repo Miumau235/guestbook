@@ -1,3 +1,9 @@
 2020-07-21 13:06:15 jdbc[23]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SCHEMA_MIGRATIONS" not found; SQL statement:
 SELECT 1 FROM schema_migrations [42102-200]
+2020-07-29 09:54:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "GUESTBOOK" not found; SQL statement:
+SELECT * from guestbook [42102-200]
+2020-07-29 09:58:11 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SCHEMA_MIGRATIONS" not found; SQL statement:
+SELECT 1 FROM schema_migrations [42102-200]
